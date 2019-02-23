@@ -1,0 +1,107 @@
+[debug] [2019-02-22T12:19:23.014Z] ----------------------------------------------------------------------
+[debug] [2019-02-22T12:19:23.019Z] Command:       D:\Tools\nodejs\node.exe D:\Tools\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-02-22T12:19:23.019Z] CLI Version:   6.3.1
+[debug] [2019-02-22T12:19:23.020Z] Platform:      win32
+[debug] [2019-02-22T12:19:23.020Z] Node Version:  v8.11.3
+[debug] [2019-02-22T12:19:23.021Z] Time:          Fri Feb 22 2019 14:19:23 GMT+0200 (Egypt Standard Time)
+[debug] [2019-02-22T12:19:23.021Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-22T12:19:23.047Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-22T12:19:23.048Z] > authorizing via signed-in user
+[debug] [2019-02-22T12:19:23.048Z] [iam] checking project cards-i888 for permissions ["firebase.projects.get"]
+[debug] [2019-02-22T12:19:23.052Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cards-i888:testIamPermissions  
+
+[debug] [2019-02-22T12:19:24.483Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-22T12:19:24.487Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cards-i888  
+ 
+[debug] [2019-02-22T12:19:25.629Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\cards'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-22T12:19:40.431Z] Fetching environment
+[debug] [2019-02-22T12:19:40.439Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/972550489820:getServerAppConfig  
+ 
+[debug] [2019-02-22T12:19:40.439Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/972550489820/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-22T12:19:41.561Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-22T12:19:41.562Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-22T12:19:41.655Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-02-22T12:19:55.182Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2019-02-22T20:11:27.594Z] ----------------------------------------------------------------------
+[debug] [2019-02-22T20:11:27.598Z] Command:       D:\Tools\nodejs\node.exe D:\Tools\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-02-22T20:11:27.599Z] CLI Version:   6.3.1
+[debug] [2019-02-22T20:11:27.599Z] Platform:      win32
+[debug] [2019-02-22T20:11:27.599Z] Node Version:  v8.11.3
+[debug] [2019-02-22T20:11:27.600Z] Time:          Fri Feb 22 2019 22:11:27 GMT+0200 (Egypt Standard Time)
+[debug] [2019-02-22T20:11:27.600Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-22T20:11:27.938Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-22T20:11:27.939Z] > authorizing via signed-in user
+[debug] [2019-02-22T20:11:27.940Z] [iam] checking project cards-i888 for permissions ["firebase.projects.get"]
+[debug] [2019-02-22T20:11:27.944Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-22T20:11:27.945Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-22T20:11:28.552Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-22T20:11:28.804Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cards-i888:testIamPermissions  
+
+[debug] [2019-02-22T20:11:30.189Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-22T20:11:30.191Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cards-i888  
+ 
+[debug] [2019-02-22T20:11:31.171Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\cards'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-22T20:12:10.204Z] Fetching environment
+[debug] [2019-02-22T20:12:10.267Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/972550489820:getServerAppConfig  
+ 
+[debug] [2019-02-22T20:12:10.269Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/972550489820/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-22T20:12:10.813Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-22T20:12:10.813Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-22T20:12:11.302Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-02-22T20:12:43.638Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2019-02-23T12:14:02.879Z] ----------------------------------------------------------------------
+[debug] [2019-02-23T12:14:02.883Z] Command:       D:\Tools\nodejs\node.exe D:\Tools\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-02-23T12:14:02.884Z] CLI Version:   6.3.1
+[debug] [2019-02-23T12:14:02.884Z] Platform:      win32
+[debug] [2019-02-23T12:14:02.884Z] Node Version:  v8.11.3
+[debug] [2019-02-23T12:14:02.886Z] Time:          Sat Feb 23 2019 14:14:02 GMT+0200 (Egypt Standard Time)
+[debug] [2019-02-23T12:14:02.886Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-23T12:14:03.025Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-23T12:14:03.026Z] > authorizing via signed-in user
+[debug] [2019-02-23T12:14:03.026Z] [iam] checking project cards-i888 for permissions ["firebase.projects.get"]
+[debug] [2019-02-23T12:14:03.030Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-23T12:14:03.030Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-23T12:14:03.487Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-23T12:14:03.568Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cards-i888:testIamPermissions  
+
+[debug] [2019-02-23T12:14:04.726Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-23T12:14:04.728Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cards-i888  
+ 
+[debug] [2019-02-23T12:14:05.729Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\cards'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-23T12:15:03.815Z] Fetching environment
+[debug] [2019-02-23T12:15:04.022Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/972550489820:getServerAppConfig  
+ 
+[debug] [2019-02-23T12:15:04.023Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/972550489820/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-23T12:15:04.770Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-23T12:15:04.771Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-23T12:15:05.020Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-02-23T12:15:33.651Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
